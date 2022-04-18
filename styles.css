@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+section{
+    display: block;
+}
+
+.container{
+    display: block;
+    width: 100%;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 1.625rem;
+    letter-spacing: .1rem;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background: #e9fdfd;
+
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+
+    gap: .5rem;
+}
+
+.banner{
+    text-align: center;
+    padding: 4rem 0rem;
+    background: #e9fdfd;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner h1{
+    font-size: 2.25rem;
+}
+
+.btn{
+    background: aqua;
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.myMargins{
+    margin: .3rem;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services__text{
+    flex: 1;
+    text-align: center;
+}
+.services__image{
+    flex: 1;
+}
+
+.services__image-img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-title{
+    padding: .5rem 0rem;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.footer{
+    text-align: center;
+    padding: 1rem 0rem;
+    line-height: 1.5rem;
+}
+.footer_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.social_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.hello{
+    display: block;
+}
+
+.bottom{
+    color: #004242;
+}
+
+.callToAction .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #c5ffff;
+    padding: 1rem 1rem;
+    line-height: 1.2rem;
+}
+
+@media screen and (max-width: 792px) {
+
+    .container{
+        max-width: 100vw;
+    }
+
+    .intro{
+        flex-direction: column;
+    }
+
+    .callToAction .container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+}
+
+
+
